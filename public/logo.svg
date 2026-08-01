@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 48" width="250" height="48" role="img" aria-label="Sanrovix Tech">
+  <!--
+    Sanrovix Tech logo. To change the brand name, edit the text inside the
+    <tspan> elements below. To recolor, edit the gradient stop colors.
+    "Sanrovix" is white; "Tech" uses the brand gradient.
+  -->
+  <defs>
+    <linearGradient id="brand-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6" />
+      <stop offset="0.5" stop-color="#6366f1" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <text
+    x="0"
+    y="35"
+    font-family="'Space Grotesk', 'Inter', system-ui, -apple-system, sans-serif"
+    font-size="30"
+    font-weight="700"
+    letter-spacing="-0.6"
+  >
+    <tspan fill="#ffffff">Sanrovix </tspan><tspan fill="url(#brand-grad)">Tech</tspan>
+  </text>
+</svg>
